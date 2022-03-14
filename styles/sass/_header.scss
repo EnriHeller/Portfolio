@@ -124,6 +124,7 @@
     z-index: 100;
     animation-name: despliegue;
     animation-duration: 0.5s;
+    
 }
 
 .menu-pestaña a{
@@ -214,6 +215,8 @@
         height: 80%;
         justify-content: center;
         border-color: transparent;
+        animation-name: none;
+        
         
     }
 
@@ -229,7 +232,6 @@
     .menu-pestaña a:hover, .menu-pestaña a:active{
         font-weight: 500;
         cursor: pointer;
-        
     }
 
     .menu-pestaña a:hover{

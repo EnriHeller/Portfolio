@@ -5,6 +5,10 @@
     @include format-document;
 }
 
+a {
+    text-decoration: none;
+}
+
 html{
     scroll-behavior: smooth;
 }
@@ -16,3 +20,4 @@ body{
 }
 
 @import "./sass/header";
+@import "./sass/main";
